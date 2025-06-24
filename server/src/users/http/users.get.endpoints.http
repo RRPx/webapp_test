@@ -1,0 +1,9 @@
+
+### Get All Users
+GET http://localhost:3001/api/users
+
+### Get Single User
+GET http://localhost:3001/api/users/1
+
+### Get timeline for user 1
+GET http://localhost:3001/api/users/1/timeline
