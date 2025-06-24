@@ -21,9 +21,9 @@ Basic UI using minimal CSS (as requested)
 
 - Unimplemented Features
   
-  View murmur details
-  Follow/Unfollow other users
-  Authentication [optional]
+View murmur details
+Follow/Unfollow other users
+Authentication [optional]
 
 - Impressions
 
