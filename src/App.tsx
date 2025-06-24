@@ -1,29 +1,25 @@
-import { useState, useEffect } from 'react'
-import axios from 'axios'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import Timeline from './components/Timeline'
+import CreateMurmur from './components/CreateMurmur'
+import UserDetail from './components/UserDetail'
+import UsersList from './components/UsersList'
 
-function App() {
-  const [data, setData] = useState<any>(null)
-  
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await axios.post('/api/postTest')
-        console.log(res.data)
-        setData(res.data)
-      } catch (error) {
-        console.error('Error fetching data:', error)
-      }
-    }
-    
-    fetchData()
-  }, [])
-
+export default function App() {
   return (
-    <div>
-      <h1>Display the data obtained from API here</h1>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
-    </div>
+    <Router>
+      <nav className="p-4 bg-gray-100 flex gap-4">
+        <Link to="/timeline">Timeline</Link>
+        <Link to="/create">Create Murmur</Link>
+        <Link to="/me">About me</Link>
+        <Link to="/all-users">All Users</Link>
+      </nav>
+      <Routes>
+        <Route path="/timeline" element={<Timeline />} />
+        <Route path="/create" element={<CreateMurmur />} />
+        <Route path="/me" element={<UserDetail />} />
+        <Route path="/user/:userId?" element={<UserDetail />} />
+        <Route path="/all-users" element={<UsersList />} />
+      </Routes>
+    </Router>
   )
 }
-
-export default App

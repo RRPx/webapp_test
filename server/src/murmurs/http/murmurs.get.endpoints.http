@@ -1,0 +1,8 @@
+### Get All Murmurs
+GET http://localhost:3001/api/murmurs
+
+### Get Murmur by ID
+GET http://localhost:3001/api/murmurs/1
+
+### Get Murmurs by User ID
+GET http://localhost:3001/api/murmurs/user/1

@@ -1,0 +1,5 @@
+### Get Followers of User 2
+GET http://localhost:3001/api/follow/2/followers
+
+### Get Who User 1 Follows
+GET http://localhost:3001/api/follow/1/following

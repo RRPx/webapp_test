@@ -1,0 +1,8 @@
+### Create Murmur
+POST http://localhost:3001/api/murmurs
+Content-Type: application/json
+
+{
+  "text": "Hey lets go 12",
+  "userId": 1
+}

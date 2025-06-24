@@ -24,6 +24,7 @@
     "class-validator": "^0.14.0",
     "cors": "^2.8.5",
     "helmet": "^7.2.0",
+    "httpyac": "^6.16.7",
     "moment": "^2.29.4",
     "mysql2": "^2.3.3",
     "reflect-metadata": "^0.1.14",

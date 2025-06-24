@@ -1,0 +1,2 @@
+### Get Like Count
+GET http://localhost:3001/api/likes/2

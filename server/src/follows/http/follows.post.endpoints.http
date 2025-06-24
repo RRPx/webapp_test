@@ -1,0 +1,8 @@
+### Follow User
+POST http://localhost:3001/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 1,
+  "followeeId": 4
+}
