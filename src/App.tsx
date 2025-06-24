@@ -19,6 +19,7 @@ function App() {
   }, [])
 
   return (
+    // Inital Commit
     <div>
       <h1>Display the data obtained from API here</h1>
       <pre>{JSON.stringify(data, null, 2)}</pre>
