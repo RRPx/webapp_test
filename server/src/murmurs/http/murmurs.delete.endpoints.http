@@ -1,0 +1,8 @@
+### Delete a Murmur
+DELETE http://localhost:3001/api/murmurs/2
+Content-Type: application/json
+
+
+{
+    "userId": 3
+}
