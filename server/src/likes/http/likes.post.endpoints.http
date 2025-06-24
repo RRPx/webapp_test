@@ -1,0 +1,8 @@
+### Like a Murmur
+POST http://localhost:3001/api/likes
+Content-Type: application/json
+
+{
+  "userId": 2,
+  "murmurId": 1
+}
