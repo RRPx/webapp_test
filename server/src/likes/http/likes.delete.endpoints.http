@@ -1,0 +1,8 @@
+### Unlike a Murmur
+DELETE http://localhost:3001/api/likes
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "murmurId": 2
+}
