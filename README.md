@@ -21,13 +21,11 @@ Basic UI using minimal CSS (as requested)
 
 - Unimplemented Features
   
-View murmur details
-Follow/Unfollow other users
-Authentication [optional]
+View murmur details, Follow/Unfollow other users, Authentication [optional]
 
 - Impressions
 
-This assignment provided a well-rounded opportunity to build a social feed app from scratch with modern frameworks.
-NestJS with TypeORM offered great developer ergonomics for building scalable APIs.
-React’s flexibility made it easy to structure reusable UI and handle API state.
-I enjoyed the challenge and focused on functional correctness and clean architecture, as design was not a priority.
+This assignment provided a well-rounded opportunity to build a social feed app from scratch with modern frameworks, 
+NestJS with TypeORM offered great developer ergonomics for building scalable APIs, 
+React’s flexibility made it easy to structure reusable UI and handle API state, 
+I enjoyed the challenge and focused on functional correctness and clean architecture, as design was not a priority, 
